@@ -12,7 +12,7 @@ CRM app is based on App Template - you can check it [here](https://github.com/sa
 
 ### Docs
 
-You can find docs [here](./docs/crm.md)
+You can find docs [here](https://docs.saleor.io/developer/app-store/apps/crm)
 
 ## How to use this project
 
