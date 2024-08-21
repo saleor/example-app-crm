@@ -10,10 +10,6 @@ Note: This repository is an example, which means:
 
 CRM app is based on App Template - you can check it [here](https://github.com/saleor/saleor-app-template)
 
-### Docs
-
-You can find docs [here](./docs/crm.md)
-
 ## How to use this project
 
 ### Select your APL
