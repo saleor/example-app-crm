@@ -11,9 +11,6 @@ const Heading = (props: TextProps) => (
   <Text as="h2" variant="heading" marginBottom={1.5} marginTop={9} {...props} />
 );
 
-const getGraphiqlExampleQueryPlaygroundUrl = (apiUrl = "https://demo.saleor.io/graphql/") =>
-  `https://graphiql.cloud/?endpoint=${apiUrl}#gql/N4IgjiBcILYK4BcCGCCWB7AdgAgMoFMEBZJVAGwGMALVGABwBUkBzACgBIK4BnBdGfACcAkgBFI2MQEIAlNmAAdHNjh0AJinwAFQagBumooSQbkrJdkvZUaiZx58BI0RaupMdRBOABrfAE8JBVhSShp6AH1kZm5ggBpsAzI4fCCQAG0FLJAmZmwARiz47CKclmwAJlKAXWCAX1c5RWVLIUF0QW55VytsAW5uFnwe7AblMbqQOJB0KBACYlDqWkYWEDqgA`;
-
 export const Instructions = (props: PropsWithBox<{}>) => {
   const [instructionsVisible, setInstructionsVisible] = useLocalStorage(
     "instructions-visible",
@@ -89,12 +86,6 @@ export const Instructions = (props: PropsWithBox<{}>) => {
             <br />
             For example <code>mailchimp_tags: [&quot;Tag1&quot;, &quot;Tag2&quot;]</code>
           </Text>
-        </Paragraph>
-        <Paragraph>
-          Check{" "}
-          <TextLink href={getGraphiqlExampleQueryPlaygroundUrl(appBridgeState?.saleorApiUrl)}>
-            example query
-          </TextLink>
         </Paragraph>
       </Box>
     </Section>
