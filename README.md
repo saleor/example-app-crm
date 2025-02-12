@@ -13,10 +13,6 @@ Note: This repository is an example, which means:
 
 CRM app is based on App Template - you can check it [here](https://github.com/saleor/saleor-app-template)
 
-### Docs
-
-You can find docs [here](https://docs.saleor.io/developer/app-store/apps/crm)
-
 ## How to use this project
 
 ### Select your APL
